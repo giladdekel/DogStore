@@ -1,0 +1,17 @@
+.search-box-area {
+  padding-top: 10px;
+
+  input {
+    width: 321px;
+  }
+  @media screen and (max-width: 1250px) {
+    // background-color: rgb(85, 32, 32);
+
+    .primary {
+      position: absolute;
+    }
+    .search-box-area {
+      width: 197px;
+    }
+  }
+}

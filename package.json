@@ -1,0 +1,40 @@
+{
+  "name": "dog-best-friends",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "The Best Store to Our Best Friends",
+  "main": "index.js",
+  "scripts": {
+    "build": "cd frontend && npm install && npm run build",
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "express-session": "^1.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "mailgun-js": "^0.22.0",
+    "mailgun.js": "^2.0.6",
+    "mongoose": "^5.10.7",
+    "multer": "^1.4.2",
+    "natives": "^1.1.6",
+    "nodemailer": "^6.5.0",
+    "passport-google-oauth20": "^2.0.0",
+    "socket.io": "^4.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-plugin-react": "^7.21.2",
+    "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": "12.4.0",
+    "npm": "6.9.0"
+  }
+}
